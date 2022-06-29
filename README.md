@@ -13,7 +13,7 @@
 <h1 align="center">Stadia Electron</h1>
 
 <p align="center">
-<img width="450" alt="2021-11-02 at 16 29 30" src="https://who.is-yiffing.me/E7Upx4c2y1.png">
+<img width=75% alt="2021-11-02 at 16 29 30" src="https://who.is-yiffing.me/E7Upx4c2y1.png">
 </p>
 
 Electron app for Google Stadia.
