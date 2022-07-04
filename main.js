@@ -23,6 +23,7 @@ const mb = menubar({
   icon: path.join(__dirname, "./MenuIcon.png"),
   webPreferences: {
     partition: "persist:googlestadia",
+    webgl: true,
   },
 });
 
@@ -40,10 +41,13 @@ mb.on("ready", () => {
 
   // First URL
   win.loadURL("https://stadia.google.com/");
-
+  win.setBackgroundColor('#333333')
+  win.once('ready-to-show', () => {
+    win.show()
+  });
 });
 
-// mb.on('after-create-window', () => {}
+// mb.on('after-create-window', () => {});
 
 // Quit when all windows are closed, except on macOS. There, it's common
 // for applications and their menu bar to stay active until the user quits
